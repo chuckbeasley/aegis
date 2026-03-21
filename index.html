@@ -3,18 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Aegis – Latest Debug APK</title>
+    <title>Aegis – Download</title>
     <style>
-      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; }
-      a.button { display: inline-block; padding: 12px 16px; background: #0969da; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; }
-      a.button:hover { background: #0757ba; }
-      code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+             background: #1A2332; color: #E8EDF2; margin: 0; padding: 2rem;
+             display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
+      h1 { margin-top: 2rem; }
+      .subtitle { color: #9EAAB8; margin-bottom: 2rem; }
+      a.button { display: inline-block; padding: 16px 32px; background: #4FC3F7;
+                 color: #1A2332; text-decoration: none; border-radius: 8px;
+                 font-weight: 700; font-size: 1.1rem; transition: background 0.2s; }
+      a.button:hover { background: #81D4FA; }
+      .meta { margin-top: 2rem; color: #6B8AAD; font-size: 0.875rem; }
+      .meta a { color: #4FC3F7; }
+      code { background: #243B5A; padding: 2px 6px; border-radius: 4px; }
     </style>
   </head>
   <body>
-    <h1>Aegis – Latest Debug Android APK</h1>
-    <p><a class="button" href="./latest.apk">⬇ Download latest.apk</a></p>
-    <p>Build metadata: <a href="./latest.json">latest.json</a></p>
-    <p>On Android you may need to enable <code>Install unknown apps</code> for the browser or files app you use to open the APK.</p>
+    <h1>Aegis</h1>
+    <p class="subtitle">Peer-to-peer encrypted messaging</p>
+    <a class="button" href="https://github.com/chuckbeasley/aegis/releases/latest/download/aegis-debug.apk">Download APK</a>
+    <p class="meta">
+      <a href="https://github.com/chuckbeasley/aegis/releases/latest">View release notes</a> ·
+      <a href="./latest.json">Build metadata</a>
+    </p>
+    <p class="meta">Android 7.0+ required. Enable <code>Install unknown apps</code> to install.</p>
   </body>
 </html>
