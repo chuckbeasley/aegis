@@ -1,9 +1,9 @@
 {
-  "version": "0.1.198",
-  "tag": "v0.1.198",
+  "version": "0.1.199",
+  "tag": "v0.1.199",
   "source_repo": "chuckbeasley/diocles",
-  "sha": "c5d2733edf1b3e59409140f02bc5293124495c43",
-  "run_id": 23695905375,
-  "built_at_utc": "2026-03-28T22:47:45Z",
+  "sha": "4386ec217dfec78f3936d17063fc1251fb4a9827",
+  "run_id": 23696287915,
+  "built_at_utc": "2026-03-28T23:11:33Z",
   "download_url": "https://github.com/chuckbeasley/aegis/releases/latest/download/aegis-debug.apk"
 }
